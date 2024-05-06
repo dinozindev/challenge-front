@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 739px){
+    body{
+        background-color: #18B7E4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+   }
+   main{
+    background-color: rgba(224, 224, 224, 0.2);
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+     border-radius: 5%;
+}
+.imaglogo{
+    height: 10vw;
+    width: 10vw;
+    margin-left: 3vw;
+    margin-top: 10vw;
+} 
+h1{
+    color: white;
+    margin: auto;
+    padding:5vw 15vw 3vw 15vw;
+    font-size: 5vw;
+    margin-top: 50px;
+}
+a{
+    background-color: white;
+    font-size: 3vw;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+    width: 70%;
+    height: 7vw;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2.5vw;
+}
+.voltar{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin-top: -6.3vw; 
+    padding-bottom: 5vw;
+}
+.istok-web-regular{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.noformat{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: -10vw;
+}
+.homelogo{
+    background-color: rgba(0, 0, 0, 0);
+    width: 30vw;
+    margin-left: -4.5vw;
+}
+.voltarSeta{
+    width: 6vw;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-left: 14vw;
+}
+
+}/* Fianl media 320 - 739 */
+
+
+@media screen and (min-width: 740px) and (max-width: 1023px){
+body{
+     background-color: #18B7E4;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+main{
+    background-color: rgba(224, 224, 224, 0.2);
+     /* background-color: rgba(9, 255, 0, 0.2); */
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+     border-radius: 5%;
+}
+.imaglogo{
+     height: 10vw;
+     width: 10vw;
+     margin-left: 3vw;
+     margin-top: 10vw;
+} 
+h1{
+    color: white;
+    margin: auto;
+    padding:5vw 15vw 3vw 15vw;
+    font-size: 5vw;
+    margin-top: 80px;
+}
+a{
+    background-color: white;
+    font-size: 3vw;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+    width: 70%;
+    height: 7vw;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2.5vw;
+}
+.voltar{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin-top: -6.3vw; 
+    padding-bottom: 5vw;
+}
+  .istok-web-regular{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.noformat{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: -10vw;
+}
+.homelogo{
+    background-color: rgba(0, 0, 0, 0);
+    width: 30vw;
+    margin-left: -4.5vw;
+}
+.voltarSeta{
+    width: 6vw;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-left: 14vw;
+}
+
+
+
+}/* Final media 740 - 1024 */
+
+
+
+@media screen and (min-width: 1024px){
+
+
+#container{
+    margin-top: 5vw;
+}
+
+body{
+    background-color: #18B7E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    background-color: rgba(224, 224, 224, 0.2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 100%;
+    border-radius: 5%;
+    margin-top: 10vw;
+}
+
+.imaglogo{
+    height: 10vw;
+    width: 10vw;
+    margin-right: 10vw;
+    margin-top: 40%;
+}
+
+h1{
+    color: white;
+    margin: auto;
+    padding:15vw 15vw 3vw 15vw;
+    font-size: 5vw;
+    margin-top: -10px;
+}
+
+a{
+    background-color: white;
+    font-size: 3vw;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+    width: 70%;
+    height: 7vw;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2.5vw;
+}
+
+.istok-web-regular {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  .voltar{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin-top: -6.3vw; 
+    padding-bottom: 5vw;
+}
+
+.voltarSeta{
+    width: 6vw;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-left: 14vw;
+}
+
+.noformat{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: -10vw;
+}
+
+.homelogo{
+    background-color: rgba(0, 0, 0, 0);
+    width: 30vw;
+    margin: 0;
+}
+
+}
+

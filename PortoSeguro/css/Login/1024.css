@@ -1,0 +1,187 @@
+
+
+@media screen and (min-width: 1024px){
+
+
+    #container{
+        margin-top: 5vw;
+    }
+    
+    body{
+        background-color: #18B7E4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    main{
+        background-color: rgba(224, 224, 224, 0.2);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        /* width: 100%; */
+        border-radius: 5%;
+        margin-top: 10vw;
+        margin-bottom: 5vw;
+    }
+    
+    .imaglogo{
+        height: 10vw;
+        width: 10vw;
+        /* margin-right: 10vw; */
+        margin-left: 5.5vw;
+        margin-top: 10%;
+    }
+    
+    h1{
+        color: white;
+        margin: auto;
+        padding:12vw 15vw 1vw 15vw;
+        font-size: 5vw;
+        margin-top: -100px;
+    }
+    
+    .linke{
+        background-color: white;
+        font-size: 3vw;
+        border-radius: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto; 
+        width: 70%;
+        height: 7vw;
+        text-decoration: none;
+        color: black;
+        /* margin-bottom: -vw; */
+    }
+    
+    .istok-web-regular {
+        font-family: "Istok Web", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+      .voltar{
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        margin-top: -6vw; 
+        padding-bottom: 5vw;
+    }
+    
+    .voltarSeta{
+        width: 6vw;
+        height: 4vw;
+        margin-top: 2vw;
+        margin-left: 14vw;
+    }
+    
+    .noformat{
+        background-color: rgba(0, 0, 0, 0);
+        margin-left: -10vw;
+    }
+    
+    .homelogo{
+        background-color: rgba(0, 0, 0, 0);
+        width: 30vw;
+        margin: 0;
+    }
+
+
+    input{
+        margin: auto;
+        display: block;
+        margin-top: 3vw;
+        width: 60%;
+        height: 5vw;
+        border-radius: 1.5vw;
+        border: none;
+        padding-top: 1.2vw;
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    input::placeholder{
+        color: black;
+        font-size: 3vw;
+        text-align: center;
+
+    }
+
+    input:hover{
+        font-weight: bold;
+        border: 2px solid red ;
+    }
+/* 
+    input[required]:invalid{
+        border:10px solid red;
+    } */
+
+
+    .esqueciSenha{
+        color: white;
+        text-decoration: none;
+        font-size: 1.7vw;
+        margin-left: 50%; 
+    }
+
+
+    .linha-branca1{
+        width: 20%;
+        height: 2px;
+        background-color: white;
+        margin: 3vw 11vw;
+
+    }
+
+    p{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3.99vw;
+        font-size: 1.7vw;
+    }
+
+    .linha-branca2{
+        width: 20%;
+        height: 2px;
+        background-color: white;
+        margin: 3vw 59%;
+        margin-top: -2.75vw;
+
+    }
+
+
+    .acomom{
+            background-color: white;
+            font-size: 3vw;
+            border-radius: 1vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto; 
+            width: 60%;
+            height: 6vw;
+            text-decoration: none;
+            color: black;
+            margin-top: -3vw;
+            margin-bottom: 3.5vw;
+    }
+
+
+    .iconGoogle{
+        margin-left: 18vw;
+        /* padding-top: 5vw; */
+        position: relative;
+        top: 2vw;
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+
+    input[type="submit"]{
+        background-color: gray;
+    }
+    
+}
