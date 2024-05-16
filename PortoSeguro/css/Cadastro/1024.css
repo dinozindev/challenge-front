@@ -146,6 +146,73 @@
     input[type="submit"]{
         background-color: gray;
     }
+
+    
+    .EyeCut{
+        width: 3vw;
+        height: 3vw;
+        position: relative;
+        bottom: 48vw;
+        left: 41vw;
+    }
+    #Eye1.some{
+        display: none;
+        /* padding: 0; */
+    }
+    .EyeCut2{
+        width: 3vw;
+        height: 3vw;
+        margin-left: -3.5vw;
+        position: relative;
+        bottom: 39vw;
+    }
+    .EyeCut3.olhoCortado{
+        width: 3vw;
+        height: 3vw;
+        /* margin-left: 41vw; */
+        position: relative;
+        left: 41vw;
+        bottom: 48vw;
+        display: block;
+    }
+    .EyeCut3.someolho{
+        display: none;
+    }
+    .EyeCut3{
+        display: none;
+    }
+
+
+
+
+
+
+
+    .OlhoConfirma.some{
+        display: none;
+    }
+    .OlhoConfirma{
+        width: 3vw;
+        height: 3vw;
+        /* margin-left: 38vw; */
+        position: relative;
+        left: 38vw;
+        bottom: 38.5vw;
+        
+    }
+    .OlhoConfirma2.aparece{
+        display: block;
+        width: 3vw;
+        height: 3vw;
+        /* margin-left: 41vw; */
+        position: relative;
+        left: 41vw;
+        bottom: 41.7vw;
+
+    }
+    .OlhoConfirma2{
+        display: none;
+    }
 } 
 
 
@@ -295,6 +362,88 @@
     input[type="submit"]{
         background-color: gray;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .EyeCut{
+        width: 3vw;
+        height: 3vw;
+        position: relative;
+        bottom: 48vw;
+        left: 41vw;
+    }
+    #Eye1.some{
+        display: none;
+        /* padding: 0; */
+    }
+    .EyeCut2{
+        width: 3vw;
+        height: 3vw;
+        margin-left: -3.5vw;
+        position: relative;
+        bottom: 39vw;
+    }
+    .EyeCut3.olhoCortado{
+        width: 3vw;
+        height: 3vw;
+        /* margin-left: 41vw; */
+        position: relative;
+        left: 41vw;
+        bottom: 48vw;
+        display: block;
+    }
+    .EyeCut3.someolho{
+        display: none;
+    }
+    .EyeCut3{
+        display: none;
+    }
+
+
+
+
+
+
+
+    .OlhoConfirma.some{
+        display: none;
+    }
+    .OlhoConfirma{
+        width: 3vw;
+        height: 3vw;
+        /* margin-left: 38vw; */
+        position: relative;
+        left: 38vw;
+        bottom: 38.5vw;
+        
+    }
+    .OlhoConfirma2.aparece{
+        display: block;
+        width: 3vw;
+        height: 3vw;
+        /* margin-left: 41vw; */
+        position: relative;
+        left: 41vw;
+        bottom: 41.7vw;
+
+    }
+    .OlhoConfirma2{
+        display: none;
+    }
 } 
 
 @media screen and (min-width: 1024px){
@@ -302,7 +451,7 @@
         margin-top: 5vw;
     }
     body{
-        background-color: #4ee418;
+        background-color: #18B7E4;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -444,4 +593,86 @@
         background-color: gray;
     }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .EyeCut{
+        width: 3vw;
+        height: 3vw;
+        position: relative;
+        bottom: 48vw;
+        left: 41vw;
+    }
+    #Eye1.some{
+        display: none;
+        /* padding: 0; */
+    }
+    .EyeCut2{
+        width: 3vw;
+        height: 3vw;
+        margin-left: -3.5vw;
+        position: relative;
+        bottom: 39vw;
+    }
+    .EyeCut3.olhoCortado{
+        width: 3vw;
+        height: 3vw;
+        /* margin-left: 41vw; */
+        position: relative;
+        left: 41vw;
+        bottom: 48vw;
+        display: block;
+    }
+    .EyeCut3.someolho{
+        display: none;
+    }
+    .EyeCut3{
+        display: none;
+    }
+
+
+
+
+
+
+
+    .OlhoConfirma.some{
+        display: none;
+    }
+    .OlhoConfirma{
+        width: 3vw;
+        height: 3vw;
+        /* margin-left: 38vw; */
+        position: relative;
+        left: 38vw;
+        bottom: 38.5vw;
+        
+    }
+    .OlhoConfirma2.aparece{
+        display: block;
+        width: 3vw;
+        height: 3vw;
+        /* margin-left: 41vw; */
+        position: relative;
+        left: 41vw;
+        bottom: 41.7vw;
+
+    }
+    .OlhoConfirma2{
+        display: none;
+    }
 }

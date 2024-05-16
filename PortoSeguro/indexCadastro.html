@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/Cadastro/1024.css">
+    <link rel="icon" href="./Imagens/LogoClassic.PNG" type="image/x-icon">
+    <script src="./Js/Cadastro/js.js"></script>
 </head>
+
 <body>
-    <p>cadastro</p>
+    <div id="container">
+        <main style="width: 100%;">
+            <a class="homelogo" href="./index.html"><img class="imaglogo" src="./Imagens/Logo.png" alt="Logo" title="Logo"></a>
+            <h1 class="istok-web-regular">Cadastre-se</h1>
+            <form action="processar_login.php" method="post">
+                <input type="email" id="Email" name="Email" required placeholder="Email">
+
+                <input type="password" id="senha" name="senha" required placeholder="Senha" style="margin-bottom: 1vw;">
+                <input type="password" id="ConfirmaSenha" name="senha" required placeholder="Confirmar Senha"style="margin-bottom: 1vw;">
+
+
+                <div class="linha-branca1"></div>
+                <p style="font-family: Istok Web, sans-serif;">Ou com</p>
+                <div class="linha-branca2"></div>
+                <img class="iconGoogle" src="./Imagens/iconGoogle.png" alt="Logo Google" title="Logo Google">
+                <a class="istok-web-regular acomom" href="./indexLogin.html">Google</a>
+                <input type="submit" value="Entrar">
+
+            </form>
+            <a class="noformat linke" href="./indexCadLog.html "><img class="voltarSeta istok-web-regular" src="./Imagens/Seta.png" alt="Seta Voltar" title="Seta Voltar"></a>
+            <a class="voltar istok-web-regular linke" href="./indexCadLog.html">Voltar</a>
+
+            <img id="Eye1" class="EyeCut" src="./Imagens/EyeCut.png" alt="" onclick="HideClear()">
+            <img src="./Imagens/Eye.png" alt="" class="EyeCut3" id="Eye2" onclick="HideClear()">
+
+
+            <img id="OlhoConfirmaSenha" class="OlhoConfirma" src="./Imagens/EyeCut.png" alt="" onclick="HideClear2()">
+            <img src="./Imagens/Eye.png" alt="" class="OlhoConfirma2" id="OlhoConfirma2"onclick="HideClear2()" >
+        </main>
+    </div>
 </body>
+
 </html>

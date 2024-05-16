@@ -1,0 +1,851 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) and (max-width: 739px){
+    
+
+.tutulao{
+    font-size: 5vw;
+    margin-left: 18vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+    .cabecario{
+        background-color: #18B7E4;
+        height: 10vw;
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    .istok-web-regular{
+        font-family: "Istok Web", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* cabeçario */
+    header{
+        display: flex;
+    }
+    .AzulLeft{
+        width: 12%;
+        height: 10vw;
+        border-radius: 0 0 2vw 0;
+        background-color: #18B7E4;
+        margin-bottom: 5vw;
+    }
+    .seta{
+        width: 8vw;
+        height: 7vw;
+        margin-top: 1.8vw;
+        margin-left: 1vw;
+        transform: rotate(180deg) scaleX(-1);
+    }
+    .AzulRigth{
+        background-color: #18B7E4;
+        margin-left: 76.5%;
+        width: 17%;
+        height: 10vw;
+        border-radius: 0 0 0 2vw;
+    }
+    .LinhaBurger1{
+        border: 0.5vw solid white;
+        border-radius: 1vw;
+        width: 9vw;
+        margin: 2.5vw auto 1vw;
+    }
+    .LinhaBurger{
+        border: 0.5vw solid white;
+        margin: 1vw auto;
+        width: 9vw;
+        border-radius: 1vw;
+    }
+    #menu.show{
+        display: block;
+        margin-left: 65vw;
+        padding-bottom: 10vw;
+        background-color: rgb(241, 241, 241);
+        border-radius: 5vw 0 5vw 2vw;
+        height: 80vw;
+        width: 35vw;
+
+    }
+    #menu{
+        display: none;
+        position: fixed;
+    }
+    #somemenu.some{
+        display: none;
+    }
+    #somemenu{
+        display: block;
+    }
+    .texto{
+        width: 40%;   
+    }
+    li{
+        list-style: none;
+    }
+    .userName{
+        color: rgb(0, 0, 0);
+        font-size: 3.5vw;
+        white-space: nowrap;
+        margin-top: 3vw;
+        margin-left: 8vw;
+    }
+    .icones1{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 8vw;
+        margin-left: 15vw;
+    }
+    .textLink1{
+        color: rgb(0, 0, 0);
+        font-size: 3vw;
+        position: relative;
+        right: -10vw;
+        bottom: 2vw;
+    }
+    .icones2{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 1vw;
+        margin-left: 22.5vw;
+    }
+    .textLink2{
+        color: rgb(0, 0, 0);
+        font-size: 3vw;
+        position: relative;
+        right: -3vw;
+        bottom: -5.8vw;
+    }
+    .icones3{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 5vw;
+        margin-left: 11.9vw;
+    }
+    .textLink3{
+        color: rgb(0, 0, 0);
+        font-size: 3vw;
+        position: relative;
+        right: -8vw;
+        bottom: 4vw;
+    }
+    .icones4{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 1vw;
+        margin-left: 22.7vw;
+    }
+    .textLink4{
+        color: rgb(0, 0, 0);
+        font-size: 2.7vw;
+        position: relative;
+        right: -3vw;
+        top: 5.6vw;
+    }  
+     .icones5{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 5vw; 
+        margin-left: 22.7vw;
+    } 
+    .textLink5{
+        color: rgb(0, 0, 0);
+        font-size: 3vw;
+        position: relative;
+        left: 3vw;
+        top: 10vw;
+    } 
+
+
+    .membros{
+        border-radius: 50%;
+        height: 40vw;
+        width: 40vw;
+    }
+    .membros1{
+        margin-left: 5vw;
+    }
+
+    .titulo2{
+        margin-left: 55vw;
+        position: relative;
+        bottom: 33vw;
+        font-size: 5vw;
+    }
+
+    .rm1{
+        margin-left: 64vw;
+        position: relative;
+        bottom: 35vw;
+        font-size: 3vw;
+    }
+
+
+    .texto4{
+        display: none; 
+    }
+    .textoRevito{
+        display: none;
+    }
+    .textoKenji{
+        display: none;
+    }
+
+
+    .tituloRevito{
+        position: relative;
+        bottom: 50vw;
+        left: 9vw;
+        font-size: 4.2vw;
+    }
+    .membrosRevito{
+      
+        position: relative;
+        left: 55vw;
+        bottom: 15vw;
+    }
+
+    .rm2{
+      
+        position: relative;
+        bottom: 50vw;
+        left: 15vw;
+        font-size: 3vw;
+    }
+
+
+
+  
+.some700{
+
+    font-size: 3vw;
+    width: 30%;
+    text-align: center;
+    margin-left: 56vw;
+    position: relative;
+    bottom: 30vw;
+}
+.some7002{
+    font-size: 3vw;
+    text-align: center;
+    width: 30%;
+    margin-left: 9vw;
+    position: relative;
+    bottom: 45vw;
+}
+.some7003{
+
+    font-size: 3vw;
+    width: 30%;
+    text-align: center;
+    margin-left: 56vw;
+    position: relative;
+    bottom: 30vw;
+}
+
+.membrosKenji{
+    margin-left: 5vw;
+    margin-top: -100vw;
+}
+
+.tituloKenji{
+    margin-left: 58vw;
+    position: relative;
+    bottom: 33vw;
+    font-size: 5vw;
+}
+
+
+.RmKenji{
+    margin-left: 64vw;
+    position: relative;
+    bottom: 33vw;
+    font-size: 3vw;
+}
+
+
+
+
+    /* rodape */
+    footer{
+        background-color: #18B7E4;
+        display: block;
+        height: 60vw;
+    }
+    .contfooter{
+        display: flex;
+    }
+    footer h2{
+        color: white;   
+        margin: 5vw auto 10vw;
+        font-size: 4vw;
+    }
+    .shadow{
+        height: 1.5vw;
+        width: 40vw;
+        position: relative;
+        left: 30vw;
+        bottom: 9vw;
+        border-radius: 90%;
+
+    }
+    .links{
+        font-size: 3vw;
+        margin-left: 11vw;
+    }
+    .icons{
+        width: 4vw;
+        height: 4vw;
+        margin-left: 11vw;
+        position: relative;
+        bottom: 8vw;
+    
+    }
+    .TextIcon{
+        color: white;
+        text-decoration: none;
+        margin-left: 18vw;
+        position: relative;
+        bottom: 11.8vw;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .QuemSomos{
+        color: white;
+        margin-left: 40vw;
+        position: relative;
+        bottom: 42.6vw;
+        font-size: 3vw;
+    }
+    .icons2{
+        width: 4vw;
+        height: 4vw;
+        margin-left: 40vw;
+        position: relative;
+        bottom: 50vw;
+    }
+    .TextIcon2{
+        color: white;
+        text-decoration: none;
+        margin-left: 46vw;
+        font-size: 2.3vw;
+        position: relative;
+        bottom: 53vw;
+        text-decoration: none;
+    }
+    .DonaMoça{
+        margin-left: 70vw;
+         max-width: 30vw;
+         max-height: 39vw;
+        position: relative;
+        bottom: 76vw;
+       
+    }
+    /* final rodape */
+
+}
+
+@media screen and (min-width: 740px) and (max-width: 1024px) {
+ 
+    /* body{
+        background-color: #666666;
+    } */
+.tutulao{
+    display: none;
+}
+    
+
+
+.some700{
+        display: NONE;
+}
+.some7002{
+    display: NONE;
+}
+.some7003{
+    display: NONE;
+}
+
+
+
+    .logo{
+        display: none;
+    }
+    .istok-web-regular{
+        font-family: "Istok Web", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* cabeçario */
+    header{
+        display: flex;
+    }
+    .AzulLeft{
+        width: 12%;
+        height: 10vw;
+        border-radius: 0 0 2vw 0;
+        background-color: #18B7E4;
+        margin-bottom: 5vw;
+    }
+    .seta{
+        width: 8vw;
+        height: 7vw;
+        margin-top: 1.8vw;
+        margin-left: 1vw;
+        transform: rotate(180deg) scaleX(-1);
+    }
+    .AzulRigth{
+        background-color: #18B7E4;
+        margin-left: 76.5%;
+        width: 12%;
+        height: 10vw;
+        border-radius: 0 0 0 2vw;
+    }
+    .LinhaBurger1{
+        border: 0.5vw solid white;
+        border-radius: 1vw;
+        width: 9vw;
+        margin: 2.5vw auto 1vw;
+    }
+
+    .LinhaBurger{
+        border: 0.5vw solid white;
+        margin: 1vw auto;
+        width: 9vw;
+        border-radius: 1vw;
+    }
+    #menu.show{
+        display: block;
+        margin-left: 65vw;
+        padding-bottom: 10vw;
+        background-color: rgb(241, 241, 241);
+        border-radius: 5vw 0 5vw 2vw;
+        height: 80vw;
+        width: 35vw;
+
+    }
+    #menu{
+        display: none;
+        position: fixed;
+    }
+    #somemenu.some{
+        display: none;
+    }
+    #somemenu{
+        display: block;
+    }
+    .texto{
+        width: 40%;   
+    }
+    li{
+        list-style: none;
+    }
+    .userName{
+        color: rgb(0, 0, 0);
+        font-size: 3.5vw;
+        white-space: nowrap;
+        margin-top: 3vw;
+        margin-left: 8vw;
+    }
+    .icones1{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 8vw;
+        margin-left: 15vw;
+    }
+
+    .textLink1{
+        color: rgb(0, 0, 0);
+        font-size: 3vw;
+        position: relative;
+        right: -10vw;
+        bottom: 2vw;
+    }
+    .icones2{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 1vw;
+        margin-left: 22.5vw;
+    }
+    .textLink2{
+        color: rgb(0, 0, 0);
+        font-size: 3vw;
+        position: relative;
+        right: -3vw;
+        bottom: -5.8vw;
+    }
+    .icones3{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 5vw;
+        margin-left: 11.9vw;
+    }
+
+    .textLink3{
+        color: rgb(0, 0, 0);
+        font-size: 3vw;
+        position: relative;
+        right: -8vw;
+        bottom: 4vw;
+    }
+    .icones4{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 1vw;
+        margin-left: 22.7vw;
+    }
+
+    .textLink4{
+        color: rgb(0, 0, 0);
+        font-size: 2.7vw;
+        position: relative;
+        right: -3vw;
+        top: 5.6vw;
+    }  
+     .icones5{
+        width: 7vw;
+        height: 7vw;
+        margin-top: 5vw; 
+        margin-left: 22.7vw;
+    } 
+    .textLink5{
+        color: rgb(0, 0, 0);
+        font-size: 3vw;
+        position: relative;
+        left: 3vw;
+        top: 10vw;
+    } 
+/* final cabecario */
+  
+
+.membros1{
+    border-radius: 50%;
+    height: 25vw;
+    width: 25vw;
+    margin-top: 5VW;
+    margin-left: 38VW;
+}
+.titulo2{
+    margin-left: 37vw;
+    margin-top: 2vw;
+    font-size: 4vw;
+}
+h3{
+    margin-left: 43vw;
+    font-size: 2.5vw;
+}
+.texto4{
+    width: 80%;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+}
+
+
+
+
+
+
+
+
+/* 
+.membrosRevito{
+    display: none;
+}
+.tituloRevito{
+    display: none;
+}
+.RmRevito{
+    display: none;
+}
+.textoRevito{
+    display: none;
+}
+
+
+.membrosRevito.Some{
+    border-radius: 50%;
+    height: 25vw;
+    width: 25vw;
+    margin-top: 5VW;
+    margin-left: 38VW;
+    display: block;
+}
+.tituloRevito.Some{
+    margin-left: 37vw;
+    margin-top: 2vw;
+    font-size: 4vw;
+    display: block;
+}
+.RmRevito.Some{
+    margin-left: 43vw;
+    font-size: 2.5vw;
+    display: block;
+}
+.textoRevito.Some{
+    width: 80%;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    display: block;
+}
+
+
+ */
+ 
+
+ 
+.membrosRevito{
+    border-radius: 50%;
+    height: 25vw;
+    width: 25vw;
+    margin-top: 5VW;
+    margin-left: 38VW;
+    display: block;
+}
+.tituloRevito{
+    margin-left: 37vw;
+    margin-top: 2vw;
+    font-size: 4vw;
+    display: block;
+}
+.RmRevito{
+    margin-left: 43vw;
+    font-size: 2.5vw;
+    display: block;
+}
+.textoRevito{
+    width: 80%;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    display: block;
+}
+
+
+
+
+
+
+.membrosKenji{
+    border-radius: 50%;
+    height: 25vw;
+    width: 25vw;
+    margin-top: 5VW;
+    margin-left: 38VW;
+    display: block;
+}
+.tituloKenji{
+    margin-left: 37vw;
+    margin-top: 2vw;
+    font-size: 4vw;
+    display: block;
+}
+.RmKenji{
+    margin-left: 43vw;
+    font-size: 2.5vw;
+    display: block;
+}
+.textoKenji{
+    width: 80%;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rodape */
+    footer{
+        background-color: #18B7E4;
+        display: block;
+        height: 60vw;
+    }
+    .contfooter{
+        display: flex;
+    }
+    footer h2{
+        color: white;   
+        margin: 5vw auto 10vw;
+        font-size: 4vw;
+    }
+    .shadow{
+        height: 1.5vw;
+        width: 40vw;
+        position: relative;
+        left: 30vw;
+        bottom: 9vw;
+        border-radius: 90%;
+
+    }
+    .links{
+        font-size: 3vw;
+        margin-left: 11vw;
+    }
+    .icons{
+        width: 4vw;
+        height: 4vw;
+        margin-left: 11vw;
+        position: relative;
+        bottom: 8vw;
+    
+    }
+    .TextIcon{
+        color: white;
+        text-decoration: none;
+        margin-left: 18vw;
+        position: relative;
+        bottom: 11.8vw;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .QuemSomos{
+        color: white;
+        margin-left: 40vw;
+        position: relative;
+        bottom: 42.6vw;
+        font-size: 3vw;
+    }
+    .icons2{
+        width: 4vw;
+        height: 4vw;
+        margin-left: 40vw;
+        position: relative;
+        bottom: 50vw;
+    }
+    .TextIcon2{
+        color: white;
+        text-decoration: none;
+        margin-left: 46vw;
+        font-size: 2.3vw;
+        position: relative;
+        bottom: 53vw;
+        text-decoration: none;
+    }
+    .DonaMoça{
+        margin-left: 70vw;
+         max-width: 30vw;
+         max-height: 39vw;
+        position: relative;
+        bottom: 76vw;
+       
+    }
+    /* final rodape */
+}
+@media screen and (min-width: 1024px){
+    .cabecario{
+        display: none;
+    }
+    
+    .tutulao{
+        display: none;
+    }
+    header{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    
+.some700{
+    display: NONE;
+}
+.some7002{
+display: NONE;
+}
+.some7003{
+display: NONE;
+}
+
+    body{
+        background-color: #666666;
+    }
+    .istok-web-regular{
+        font-family: "Istok Web", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .logo{
+        margin-top: 3%;
+        margin-left: 3%;
+        width: 10%;
+        height: 10%;
+        margin-left: -38.7vw;
+        margin-bottom: 37vw;
+    }
+    .membros{
+        width: 40%;
+        height: 50vw;
+        margin-left: 0vw;
+    }
+    .titulo{
+        color: white;
+        font-size: 5vw;
+        margin-left: 52vw;
+        margin-top: -44vw;
+    }
+    h3{
+        font-size: 4vw;
+        color: white;
+        margin-left: 59.5vw;
+    }
+    .texto{
+        color: white;
+        width: 40%;
+        margin-left: 49vw;
+        font-size: 1.5vw;
+        line-height: 3.2vw;
+        text-align: center;
+        margin-top: 4vw;
+    }
+    .linha{
+        border: 1px solid white;       
+        width: 90%;
+        margin: 8vw auto 2vw ;
+    }
+    .UltimoMemnbro{
+        margin-left: 57vw;
+    }
+}

@@ -1,12 +1,13 @@
-OK               cadlog
-PENDENTE         cadastro
-PENDENTE         login
-PENDENTE         membros
-PENDENTE         perfil
-PENDENTE         chat mecanico
-PENDENTE         chat robo
-PENDENTE         home
-PENDENTE         veiculo
-PENDENTE         redefinir senha
-PENDENTE         esqueci senha
-PENDENTE         diagnostico
+cadlog           OK               
+cadastro         OK         
+login            OK  
+redefinir senha  PENDENTE   (tirar duvida com o prof)      
+esqueci senha    PENDENTE   (tirar duvida com o prof)     
+diagnostico      PENDENTE     
+membros          OK      
+perfil           PENDENTE         
+chat mecanico    PENDENTE   (tirar duvida com o prof)      
+chat robo        PENDENTE   (tirar duvida com o prof)
+home             80%         
+veiculo          PENDENTE         
+      

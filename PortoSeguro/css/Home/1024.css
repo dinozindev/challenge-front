@@ -1,0 +1,1032 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 739px){
+/* inicio cabecario */
+header{
+    display: flex;
+    box-shadow: 0px 0px 0px 0.5vw rgba(0, 0, 0, 0.3);
+    height: 11vw;
+}
+.istok-web-regular{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.seta{
+    width: 8vw;
+    height: 7vw;
+    margin-top: 1.8vw;
+    margin-left: 1vw;
+    transform: rotate(180deg) scaleX(-1);
+}
+.AzulRigth{
+    /* background-color: #18B7E4; */
+    margin-left: 90.5%;
+    width: 22%;
+    height: 10vw;
+    border-radius: 0 0 0 2vw;
+}
+.LinhaBurger1{
+    border: 0.5vw solid rgb(0, 0, 0);
+    border-radius: 1vw;
+    width: 9vw;
+    margin-bottom: 4vw;
+    
+    /* margin: 3vw 20v77w 1vw 1vw;
+    margin-right: 20vw; */
+    position: relative;
+    top: 3vw;
+    right: 3vw;
+}
+.LinhaBurger{
+    border: 0.5vw solid rgb(0, 0, 0);
+    /* margin: 1vw 3vw; */
+    margin-top: 1vw;
+    width: 9vw;
+    border-radius: 1vw;
+    position: relative;
+    right: 3vw;
+}
+#menu.show{
+    display: block;
+    margin-left: 65vw;
+    padding-bottom: 10vw;
+    margin-top: 0;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5vw 0 5vw 2vw;
+    max-height: 50vw;
+    min-height: 60vw;
+    width: 35vw;
+}
+#menu{
+    display: none;
+    position: fixed;
+    z-index: 1;
+}
+#somemenu.some{
+    display: none;
+}
+#somemenu{
+    display: block;
+}
+.texto{
+    width: 40%;   
+}
+li{
+    list-style: none;
+}
+.userName{
+    color: rgb(0, 0, 0);
+    font-size: 3.5vw;
+    white-space: nowrap;
+    margin-top: 3vw;
+    margin-left: 8vw;
+}
+.user{
+    color: white;
+    width: 42vw;
+    display: none;
+}
+.useraparece{
+    color: rgb(0, 0, 0);
+    width: 32vw;
+    font-size: 5vw;
+    position: relative;
+    bottom: 7vw;
+    left: 2vw;
+}
+.icones1{
+    width: 5vw;
+    height: 5vw;
+    margin-top: 4vw;
+    margin-left: 20vw;
+}
+.textLink1{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: relative;
+    right: -18vw;
+    top: -1.8vw;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.icones2{
+    width: 5vw;
+    height: 5vw;
+    margin-top: 2vw;
+    margin-left: 12vw;
+}
+.textLink2{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: relative;
+    right: -9vw;
+    bottom: 2vw;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.icones3{
+    width: 5vw;
+    height: 5vw;
+    margin-top: 0vw;
+    margin-left: 27vw;
+}
+.textLink3{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: relative;
+    right: -15vw;
+    bottom: -3.5vw;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.icones4{
+    width: 5vw;
+    height: 5vw;
+    margin-top: -2vw;
+    margin-left: 27vw;
+}
+.textLink4{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: relative;
+    right: -6.6vw;
+    top: 2.5vw;
+    text-decoration: none;
+    white-space: nowrap;
+}  
+ .icones5{
+    width: 5vw;
+    height: 5vw;
+    margin-top: -2vw; 
+    margin-left: 27vw;
+} 
+.textLink5{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    text-decoration:    none;
+    position: relative;
+    left: 11vw;
+    top: 2.5vw;
+    white-space: nowrap;
+} 
+.somepouco{
+    display: none;
+}
+.responsivoMedio{
+    display: none;
+}
+
+.pesquisa{
+    display: none;
+}
+/* final cabecvario */
+
+
+/* conteudo */
+.Sec1S{
+    height: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    /* background-color: #ececec; */
+}
+.carHome{
+    width: 57vw;
+    height: 60vw;
+    margin-left: 40vw;
+    position: relative;
+    bottom: 30vw;
+}
+.textSection1{
+    font-size: 4vw;
+    width: 33%;
+    margin-left: 5vw;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10vw;
+   
+}
+.Confira{
+    background-color: #18B7E4;
+    text-decoration: none;
+    font-size: 5vw;
+    border-radius: 10vw;
+    padding: 1vw 4vw 1vw 4vw;
+    margin-left: 10vw;
+    position: relative;
+    bottom: 57vw;
+    color: white;
+}
+.mecanico{
+    width: 60vw;
+    height: 50vw;
+}
+.textSec2{
+    width: 30%;
+    font-size: 4.4vw;
+    margin-left: 65vw;
+    position: relative;
+    bottom: 42vw;
+    font-weight: BOLD;
+    text-align: end;
+}
+.IR{
+    background-color: #18B7E4;
+    text-decoration: none;
+    font-size: 5vw;
+    border-radius: 10vw;
+    padding: 1vw 8vw 1vw 8vw;
+    margin-left: 74vw;
+    /* width: 10VW; */
+    position: relative;
+    bottom: 35vw;
+    color: white;
+}
+.sec2{
+    box-shadow: 0 0 0 0.5vw rgba(0, 0, 0, 0.3);
+    height: 50vw;
+}
+.sec3{
+    background-color: #F2EDED;
+    height: 53vw;
+}
+.Homem{
+    width: 40vw;
+    height: 50vw;
+    margin-left: 50vw;
+    position: relative;
+    bottom: 30vw;
+}
+.textSec3{
+    color: black;
+    text-align: start;
+    width: 35%;
+    font-size: 4vw;
+    padding-top: 10vw;
+    margin-left: 5vw;
+}
+.SaibaMais{
+    background-color: #18B7E4;
+    text-decoration: none;
+    font-size: 5vw;
+    border-radius: 10vw;
+    padding: 1vw 5vw 1vw 5vw;
+    margin-left: 5vw;
+    /* width: 10VW; */
+    position: relative;
+    bottom: 45vw;
+    color: white;
+}
+/* final conteudo */
+
+
+
+
+
+
+
+/* inicio rodape */
+footer{
+    background-color: #18B7E4;
+    display: block;
+    height: 60vw;
+}
+.contfooter{
+    display: flex;
+}
+footer h2{
+    color: white;   
+    margin: 5vw auto 10vw;
+    font-size: 4vw;
+}
+.shadow{
+    height: 1.5vw;
+    width: 40vw;
+    position: relative;
+    left: 30vw;
+    bottom: 9vw;
+    border-radius: 90%;
+
+}
+.links{
+    font-size: 3vw;
+    margin-left: 11vw;
+}
+.icons{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 11vw;
+    position: relative;
+    bottom: 8vw;
+
+}
+.TextIcon{
+    color: white;
+    text-decoration: none;
+    margin-left: 18vw;
+    position: relative;
+    bottom: 11.8vw;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.QuemSomos{
+    color: white;
+    margin-left: 40vw;
+    position: relative;
+    bottom: 42.6vw;
+    font-size: 3vw;
+}
+.icons2{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 40vw;
+    position: relative;
+    bottom: 50vw;
+}
+.TextIcon2{
+    color: white;
+    text-decoration: none;
+    margin-left: 46vw;
+    font-size: 2.3vw;
+    position: relative;
+    bottom: 53vw;
+    text-decoration: none;
+}
+.DonaMoça{
+    margin-left: 70vw;
+     max-width: 30vw;
+     max-height: 39vw;
+    position: relative;
+    bottom: 76vw;
+   
+}
+/* final rodape */
+
+
+}
+@media screen and (min-width: 740px) and (max-width: 1024px){
+    
+/* sumindo conteudo abaixo 740 */
+
+.Sec1S{
+    display: none;
+}
+.carHome{
+    display: none;
+}
+.textSection1{
+    display: none;
+}
+.Confira{
+    display: none;
+}
+.mecanico{
+    display: none;
+}
+.textSec2{
+    display: none;
+}
+.IR{
+    display: none;
+}
+.sec2{
+    display: none;
+}
+.sec3{
+    display: none;
+}
+.Homem{
+    display: none;
+}
+.textSec3{
+    display: none;
+}
+.SaibaMais{
+    display: none;
+}
+/* final conteudo */
+footer{
+    display: none;
+    /* position: relative;
+    bottom: 300vw; */
+}
+.useraparece{
+    display: none;
+}
+.container{
+    display: none;
+}
+.cabecario{
+    background-color: rgba(10, 10, 10, 0.3);
+    height: 10vw;
+    width: 100%;
+    position: relative;
+    top: 0vw;
+    z-index: 10;
+}
+.logo{
+    display: none;
+}
+.istok-web-regular{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* cabeçario */
+header{
+    display: flex;
+    width: 90%;
+}
+.AzulLeft{
+    width: 12%;
+    height: 10vw;
+    border-radius: 0 0 2vw 0;
+    background-color: #18B7E4;
+    margin-bottom: 5vw;
+}
+.seta{
+    width: 8vw;
+    height: 7vw;
+    margin-top: 1.8vw;
+    margin-left: 1vw;
+    transform: rotate(180deg) scaleX(-1);
+}
+.AzulRigth{
+    background-color: none;
+    margin-left: 76.5%;
+    width: 17%;
+    height: 10vw;
+    border-radius: 0 0 0 2vw;
+}
+.LinhaBurger1{
+    border: 0.5vw solid rgb(255, 255, 255);
+    border-radius: 1vw;
+    width: 9vw;
+    /* margin: 5vw auto 1vw; */
+    margin-top: 3vw;
+    margin-left: -10vw;
+}
+.LinhaBurger{
+    border: 0.5vw solid white;
+    /* margin: 1vw auto; */
+    width: 9vw;
+    border-radius: 1vw;
+    margin-left: -10vw;
+    margin-top: 1vw;
+}
+#menu.show{
+    display: block;
+    margin-left: 65vw;
+    padding-bottom: 10vw;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5vw 0 5vw 2vw;
+    height: 80vw;
+    width: 35vw;
+    z-index: 1;
+
+}
+#menu{
+    display: none;
+    position: fixed;
+}
+#somemenu.some{
+    display: none;
+}
+#somemenu{
+    display: block;
+}
+.texto{
+    width: 40%;   
+}
+li{
+    list-style: none;
+}
+.userName{
+    color: rgb(0, 0, 0);
+    font-size: 3.5vw;
+    white-space: nowrap;
+    margin-top: 3vw;
+    margin-left: 8vw;
+}
+.icones1{
+    width: 7vw;
+    height: 7vw;
+    margin-top: 8vw;
+    margin-left: 15vw;
+}
+.textLink1{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: relative;
+    right: -10vw;
+    bottom: 2vw;
+    text-decoration: none;
+}
+.icones2{
+    width: 7vw;
+    height: 7vw;
+    margin-top: 1vw;
+    margin-left: 22.5vw;
+}
+.textLink2{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: relative;
+    right: -3vw;
+    bottom: -5.8vw;
+    text-decoration: none;
+}
+.icones3{
+    width: 7vw;
+    height: 7vw;
+    margin-top: 5vw;
+    margin-left: 11.9vw;
+}
+.textLink3{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: relative;
+    right: -8vw;
+    bottom: 4vw;
+    text-decoration: none;
+}
+.icones4{
+    width: 7vw;
+    height: 7vw;
+    margin-top: 1vw;
+    margin-left: 22.7vw;
+}
+.textLink4{
+    color: rgb(0, 0, 0);
+    font-size: 2.7vw;
+    position: relative;
+    right: -3vw;
+    text-decoration: none;
+    top: 5.6vw;
+}  
+ .icones5{
+    width: 7vw;
+    height: 7vw;
+    margin-top: 5vw; 
+    margin-left: 22.7vw;
+} 
+.textLink5{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    position: relative;
+    text-decoration: none;
+    left: 3vw;
+    top: 10vw;
+} 
+.imgezinha{
+    width: 25vw;
+    height: 6vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+.pesquisa{
+    position: relative;
+    right: 85vw;
+    margin-top: 15vw;
+    color: rgb(255, 174, 0);
+     
+}
+.pesquisa :nth-child(1){
+    
+    background-color: #D9D9D9;
+    height: 6vw;
+    width: 80vw;
+    border-radius: 10vw;
+    border: none;
+    font-size: 3vw;
+    padding-left: 3vw;
+     
+}
+.paragrafo3{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: relative;
+    bottom: 100vw;
+    /* margin-left: 10vw; */
+    height: 20vw;
+}
+.paragrafo1{
+    font-size: 3vw;
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding-top: 7vw;
+    margin-left: 10vw;
+}
+.paragrafo2{
+    font-size: 5vw;
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding-top: 5vw;
+    margin-left: 10vw;
+    margin-bottom: 3vw;
+}
+.paragrafo4{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: relative;
+    bottom: 120vw;
+    /* margin-left: 10vw; */
+    height: 20vw;
+}
+.linkslide{
+    background-color: orange;
+    color: white;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+    border-radius: 10vw;
+    margin-left: 38vw;
+    text-decoration: none;
+}
+   /* Estilos para o slideshow */
+   .slideshow {
+    width: 100%;
+    height: 60vw;
+    overflow: hidden;
+    position: relative;
+    bottom: 70vw;
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 1s ease;
+}
+.linhapreta1{
+    border: 1px black solid;
+    width: 25%;
+    position: relative;
+    bottom: 100vw;
+    margin-left: 5vw;
+    /* display: inline-block; */
+}
+.linhapreta2{
+    border: 1px black solid;
+    width: 25%;
+    margin-left: 67vw;
+    position: relative;
+    bottom: 105.5vw;
+    /* display: inline-block; */
+}
+.novidades{
+    margin-left: 37vw;
+    color: #18B7E4;
+    font-size: 5vw;
+    position: relative;
+    bottom: 103vw;
+}
+.CentroPorto{
+    width: 40%;
+    border-radius: 3vw;
+    margin-left: 55vw;
+    position: relative;
+    bottom: 115vw;
+}
+.TextCentroPorto{
+    width: 30%;
+    font-size: 5vw;
+    text-align: center;
+    color: rgb(116, 109, 109);
+    margin-left: 10vw;
+    position: relative;
+    bottom: 90vw;
+}
+.ACentroPorto{
+    background-color: orange;
+    color: white;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 5vw;
+    text-decoration: none;
+    border-radius: 3vw;
+    margin-left: 11vw;
+    position: relative;
+    bottom: 85vw;
+}
+.ImagemChatMec{
+    width: 40%;
+    border-radius: 3vw;
+    margin-left: 5vw;
+    position: relative;
+    bottom: 110vw;
+}
+.TextChatMec{
+    width: 30%;
+    font-size: 5vw;
+    color: rgb(116, 109, 109);
+    margin-left: 56vw;
+    text-align: center;
+    position: relative;
+    bottom: 150vw;
+
+}
+.AConhecerChat{
+    background-color: orange;
+    color: white;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 5vw;
+    text-decoration: none;
+    border-radius: 3vw;
+    margin-left: 57vw;
+    position: relative;
+    bottom: 145vw;
+}
+.linhaDivisao{
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    bottom: 128vw;
+}
+.video{
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    bottom: 120vw;
+}
+.projeto{
+    color: #18B7E4;
+    font-size: 5vw;
+    margin-left: 22vw;
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
+.Equipe img{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+
+}
+.Equipe a{
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+
+}
+.EquipeTitulo{
+    font-size: 6vw;
+    margin-left: 18vw;
+    position: relative;
+    bottom: 115vw;
+    color: #18B7E4;
+}
+.KaianI{
+    margin-left: 5vw;
+    position: relative;
+    bottom: 110vw;
+}
+.KaianT{
+    margin-left: 5vw;
+    position: relative;
+    bottom: 110vw;
+}
+.RevitoI{
+    margin-left: 40vw;
+    position: relative;
+    bottom: 134vw;
+}
+.RevitoT{
+    margin-left: 39vw;
+    position: relative;
+    bottom: 134vw;
+}
+.KenjiI{
+    margin-left: 75vw;
+    position: relative;
+    bottom: 159vw;
+}
+.KenjiT{
+    margin-left: 77vw;
+    position: relative;
+    bottom: 159vw;
+}
+/* inicio rodape */
+footer{
+    background-color: #18B7E4;
+    display: block;
+    height: 60vw;
+    position: relative;
+    bottom: 90vw;
+}
+.contfooter{
+    display: flex;
+  
+}
+footer h2{
+    color: white;   
+    margin: 5vw auto 10vw;
+    font-size: 4vw;
+}
+.shadow{
+    height: 1.5vw;
+    width: 40vw;
+    position: relative;
+    left: 30vw;
+    bottom: 9vw;
+    border-radius: 90%;
+
+}
+.links{
+    font-size: 3vw;
+    margin-left: 11vw;
+}
+.icons{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 11vw;
+    position: relative;
+    bottom: 8vw;
+
+}
+.TextIcon{
+    color: white;
+    text-decoration: none;
+    margin-left: 18vw;
+    position: relative;
+    bottom: 11.8vw;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.QuemSomos{
+    color: white;
+    margin-left: 40vw;
+    position: relative;
+    bottom: 42.6vw;
+    font-size: 3vw;
+}
+.icons2{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 40vw;
+    position: relative;
+    bottom: 50vw;
+}
+.TextIcon2{
+    color: white;
+    text-decoration: none;
+    margin-left: 46vw;
+    font-size: 2.3vw;
+    position: relative;
+    bottom: 53vw;
+    text-decoration: none;
+}
+.DonaMoça{
+    margin-left: 70vw;
+     max-width: 30vw;
+     max-height: 39vw;
+    position: relative;
+    bottom: 76vw;
+   
+}
+/* final rodape */
+
+footer{
+    position: relative;
+    bottom: 150vw;
+}
+
+}
+
+@media screen and (min-width: 1024px){
+    .responsivoMedio{
+        display: none;
+    }
+    .somepouco{
+        display: none;
+    }
+    header{
+        display: none;
+    }
+    .useraparece{
+        display: none;
+    }
+    main{
+    display: none;
+    }
+    footer{
+        display: none;
+    }
+
+    .cabecario{display: none;}
+    .DivDesktop{
+        background-color: rgb(247, 247, 247);
+
+    }
+    
+    .DesktopHeader{
+        display: flex;
+    }
+
+    .DesktopHeader img{
+        width: 27vw;
+        height: 7vw;
+        margin-top: 2vw;
+        margin-left: 3vw;
+        margin-bottom: 2vw;
+    }
+
+
+    .DesktopHeader a{
+    font-size: 3vw;
+    text-decoration: none;
+    display: flex;
+    color: rgb(34, 33, 33);
+    align-items: center;
+    margin: auto;
+    }
+
+    .istok-web-regular{
+        font-family: "Istok Web", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    .textoAzul{
+        color: #18B7E4;
+    }
+
+    .p1{
+        font-size: 6vw;
+        font-weight: 700;
+        width: 62%;
+        line-height: 5vw;
+        margin-left: 2%;
+        margin-top: 7vw;
+    }
+    .DesktopP2{
+        font-size: 2vw;
+        /* font-weight: bolde; */
+        margin-top: 2vw;
+        width: 55%;
+        margin-left: 2.5vw;
+        text-align: start;
+        line-height: 3vw;
+        margin-bottom: 3vw;
+    }
+
+
+    .comece{
+            background-image: linear-gradient(to right, #18B7E4, #8c92ee); /* Red to yellow solid gradient */
+            font-size: 1.6vw;
+            text-decoration: none;
+            padding-left: 3vw;
+            padding-top: 1vw;
+            padding-bottom: 1vw;
+            padding-right: 3vw;
+            border-radius: 10vw;
+            margin-left: 3vw;
+            color: rgb(36, 36, 36);
+            /* margin-bottom: 10vw; */
+    }
+
+    .h31{
+        font-size: 2.5vw;
+        margin-left: 2vw;
+        margin-top: 5vw;
+    }
+
+    .h32{
+        font-size: 2.5vw;
+        margin-left: 28vw;
+        margin-top: -6vw;
+    }
+
+    .h33{
+        font-size: 2.5vw;
+        margin-left: 48vw;
+        margin-top: -6vw;
+    }
+
+    .DesktopCar{
+        margin-left: 57vw;
+        float: inline-end;
+        margin-top: -35vw;
+        width: 42vw;
+    }
+}
+
+
