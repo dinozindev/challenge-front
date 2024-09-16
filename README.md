@@ -8,7 +8,6 @@ A **PortoAutoTech** tem como objetivo simplificar e automatizar o processo de ma
 
 - **Acessibilidade e Versatilidade**: Plataforma responsiva e acessível em diversos dispositivos, com métodos variados para detecção de problemas, incluindo chat, reconhecimento de fala, e futuramente, reconhecimento por imagem.
 - **Manutenções Preventivas**: Após a primeira manutenção, o sistema mapeia o veículo e sugere manutenções preventivas futuras.
-- **Chat Mecânico Cliente**: Comunicação documentada com mecânicos para maior confiança e transparência.
 - **Automação Completa**: A plataforma oferece automação em todo o processo, com barras de progresso e outras funcionalidades que garantem uma experiência tranquila para o usuário.
 
 ## Instruções para Manipulação do Sistema
