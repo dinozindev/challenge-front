@@ -22,6 +22,6 @@ A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é 
 
 ## Integrantes
 
-Kaian Gustavo de Oliveira Nascimento Rm 558986*
-Giovanna Revito Roz Rm 558981*
-Lucas Kenji Kikuchi - RM554424*
+Kaian Gustavo de Oliveira Nascimento Rm 558986*\
+Giovanna Revito Roz Rm 558981*\
+Lucas Kenji Kikuchi - RM554424*\
