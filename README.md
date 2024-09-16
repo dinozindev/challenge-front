@@ -14,9 +14,10 @@ A **PortoAutoTech** tem como objetivo simplificar e automatizar o processo de ma
 
 A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é feito apenas localmente através do servidor da máquina, utilizando as tecnologias **React** e **Vite**. Para rodar a aplicação, siga os passos abaixo:
 
-1. Clone o repositório do projeto em sua máquina.
-2. No terminal, navegue até o diretório do projeto.
-3. Instale as dependências do projeto com o comando:
+1. Para Fazer Login no sitema utilize usuarioteste@.com / 1234
+2. Clone o repositório do projeto em sua máquina.
+3. No terminal, navegue até o diretório do projeto.
+4. Instale as dependências do projeto com o comando:
    ```bash
    npm install
 
