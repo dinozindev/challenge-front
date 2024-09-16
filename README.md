@@ -10,6 +10,9 @@ A **PortoAutoTech** tem como objetivo simplificar e automatizar o processo de ma
 - **Manutenções Preventivas**: Após a primeira manutenção, o sistema mapeia o veículo e sugere manutenções preventivas futuras.
 - **Automação Completa**: A plataforma oferece automação em todo o processo, com barras de progresso e outras funcionalidades que garantem uma experiência tranquila para o usuário.
 
+## Video do Projeto
+https://www.youtube.com/watch?v=Xk_73wwOvGo&ab_channel=FIAPKAIAN
+
 ## Instruções para Manipulação do Sistema
 
 A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é feito apenas localmente através do servidor da máquina, utilizando as tecnologias **React** e **Vite**. Para rodar a aplicação, siga os passos abaixo:
