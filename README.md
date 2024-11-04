@@ -47,7 +47,7 @@ A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é 
       WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
       Running on http://127.0.0.1:500
 
-## Instalação e configuração do ambiente Java*\
+## Instalação e configuração do ambiente Java
    A api de Java foi desenvolvida no Eclipse Interprise
    
    1. IDE: Abra o projeto em uma IDE compatível (Eclipse, IntelliJ IDEA, ou NetBeans).
@@ -55,19 +55,19 @@ A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é 
    3. Oracle Database: Certifique-se de que o Oracle Database está instalado e em execução.
    4. JDBC Driver: Verifique se o ojdbc11 está no arquivo pom.xml para conexão com o Oracle Database.
    
-## Configuração do Projeto Maven *\
+## Configuração do Projeto Maven 
       1. No arquivo pom.xml, você já incluiu as dependências essenciais, como ojdbc11 para o banco de dados Oracle, Jersey para o servidor REST, e Gson para manipulação de JSON.*\
       2. Certifique-se de que o maven-compiler-plugin está configurado para Java 17 (ou a versão que você está usando), e o maven-war-plugin para empacotar a aplicação como um arquivo WAR.
 
    
 ## Configuração do banco de dados Oracle   
-      1. Execute os comandos SQL para criar as tabelas necessárias no Oracle Database. *\
+      1. Execute os comandos SQL para criar as tabelas necessárias no Oracle Database. 
       2. No código de configuração de banco de dados (credenciais package), adicione as credenciais do banco Oracle.
 
-## Configuração do servidor TomCat*\
-     1. Instale e configure o Tomcat, se ainda não o fez.*\
-     2. No Eclipse: Servers > Tomcat v9.0 Server at localhost e adicione o projeto..*\
-     3. Inicie o servidor Tomcat e verifique se a aplicação é carregada com sucesso, acessando no navegador:*\
+## Configuração do servidor TomCat
+     1. Instale e configure o Tomcat, se ainda não o fez.
+     2. No Eclipse: Servers > Tomcat v9.0 Server at localhost e adicione o projeto..
+     3. Inicie o servidor Tomcat e verifique se a aplicação é carregada com sucesso, acessando no navegador:
      4. [dw](http://localhost:8080/sprint4-java/rest*\)
 
 
