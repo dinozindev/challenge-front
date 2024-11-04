@@ -1,58 +1,57 @@
-PortoAutoTech
-Descrição
-A PortoAutoTech tem como objetivo simplificar e automatizar o processo de manutenção de veículos, oferecendo uma plataforma inovadora que utiliza inteligência artificial para diagnósticos precisos e orçamentos confiáveis. Nossa solução atende proprietários de veículos que buscam confiança e praticidade ao lidar com a manutenção, eliminando a desconfiança em diagnósticos e dificuldades com mão de obra especializada.
+# PortoAutoTech
 
-Diferenciais
-Acessibilidade e Versatilidade: Plataforma responsiva e acessível em diversos dispositivos, com métodos variados para detecção de problemas, incluindo chat, reconhecimento de fala, e futuramente, reconhecimento por imagem.
-Manutenções Preventivas: Após a primeira manutenção, o sistema mapeia o veículo e sugere manutenções preventivas futuras.
-Automação Completa: A plataforma oferece automação em todo o processo, com barras de progresso e outras funcionalidades que garantem uma experiência tranquila para o usuário.
-Vídeo do Projeto
-Link para o vídeo do projeto
+## Descrição
 
-Instruções para Manipulação do Sistema
-A plataforma PortoAutoTech ainda não está disponível online. O acesso é feito apenas localmente através do servidor da máquina, utilizando as tecnologias React e Vite. Para rodar a aplicação, siga os passos abaixo:
+A **PortoAutoTech** tem como objetivo simplificar e automatizar o processo de manutenção de veículos, oferecendo uma plataforma inovadora que utiliza inteligência artificial para diagnósticos precisos e orçamentos confiáveis. Nossa solução atende proprietários de veículos que buscam confiança e praticidade ao lidar com a manutenção, eliminando a desconfiança em diagnósticos e dificuldades com mão de obra especializada.
 
-Clone o repositório do projeto em sua máquina.
-No terminal, navegue até o diretório do projeto.
-Instale as dependências do projeto com o comando:
-bash
-Copiar código
-npm install
-Configuração e Inicialização da API
-Para inicializar a API em Python, siga os passos abaixo:
+## Diferenciais
 
-Certifique-se de ter as dependências necessárias instaladas. Caso ainda não as tenha, utilize os comandos a seguir para instalar as bibliotecas necessárias:
+- **Acessibilidade e Versatilidade**: Plataforma responsiva e acessível em diversos dispositivos, com métodos variados para detecção de problemas, incluindo chat, reconhecimento de fala, e futuramente, reconhecimento por imagem.
+- **Manutenções Preventivas**: Após a primeira manutenção, o sistema mapeia o veículo e sugere manutenções preventivas futuras.
+- **Automação Completa**: A plataforma oferece automação em todo o processo, com barras de progresso e outras funcionalidades que garantem uma experiência tranquila para o usuário.
 
-Para Python abaixo da versão 3.12:
-bash
-Copiar código
-pip install pycaret
-Para Python 3.12 ou superior:
-bash
-Copiar código
-pip install git+https://github.com/pycaret/pycaret.git@master
-Comandos adicionais:
-bash
-Copiar código
-pip install flask
-pip install flask-cors
-pip install numpy
-pip install pandas
-Após instalar as dependências, navegue até o diretório Frontkenji\Sprint 4 - IA\Sprint 4 - IA no terminal.
+## Video do Projeto
+https://www.youtube.com/watch?v=Xk_73wwOvGo&ab_channel=FIAPKAIAN
 
-Execute o seguinte comando para iniciar a API:
+## Instruções para Manipulação do Sistema
 
-bash
-Copiar código
-python api.py
-O terminal deverá exibir uma mensagem semelhante a esta:
+A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é feito apenas localmente através do servidor da máquina, utilizando as tecnologias **React** e **Vite**. Para rodar a aplicação, siga os passos abaixo:
 
-csharp
-Copiar código
-Running on http://127.0.0.1:5000
-Isso indica que a API está funcionando localmente e pode ser acessada nesse endereço.
+1. Clone o repositório do projeto em sua máquina.
+2. No terminal, navegue até o diretório do projeto.
+3. Instale as dependências do projeto com o comando:
+   ```bash
+   npm install
 
-Integrantes
-Kaian Gustavo de Oliveira Nascimento - RM 558986
-Giovanna Revito Roz - RM 558981
-Lucas Kenji Kikuchi - RM 554424
+4. Em seguida abra no terminal o arquivo
+   ```bash
+   Sprint 4 - IA\Sprint 4 - IA>
+
+5. Instale as seguintes dependências
+    ```
+    pip install pycaret --> python inferior ao python 3.12
+    pip install git+https://github.com/pycaret/pycaret.git@master --> caso seja python 3.12+
+    pip install flask
+    pip install flask-cors
+    pip install numpy
+    pip install pandas
+
+6. Rode no terminal o comando
+   ```bash
+   python api.py
+  O prompt retornado deve ser semelhante a:
+    ```bash
+    
+      Transformation Pipeline and Model Successfully Loaded
+      Serving Flask app 'api'
+      Debug mode: on
+      WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+      Running on http://127.0.0.1:500
+
+
+
+## Integrantes
+
+Kaian Gustavo de Oliveira Nascimento Rm 558986*\
+Giovanna Revito Roz Rm 558981*\
+Lucas Kenji Kikuchi - RM554424*
