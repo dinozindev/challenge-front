@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=Xk_73wwOvGo&ab_channel=FIAPKAIAN
 
 ## Instruções para Manipulação do Sistema
 
-A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é feito apenas localmente através do servidor da máquina, utilizando as tecnologias **React** e **Vite**. Para rodar a aplicação, siga os passos abaixo:
+A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é feito apenas localmente através do servidor da máquina, utilizando as tecnologias **React** , **Vite** e **Next**. Para rodar a aplicação, siga os passos abaixo:
 
 1. Clone o repositório do projeto em sua máquina.
 2. No terminal, navegue até o diretório do projeto.
