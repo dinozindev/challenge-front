@@ -25,7 +25,7 @@ A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é 
 
 4. Em seguida abra no terminal o arquivo
    ```bash
-   Sprint 4 - IA\Sprint 4 - IA>
+   Sprint 4 - IA\Sprint 4 - IA
 
 5. Instale as seguintes dependências
     ```
@@ -51,6 +51,6 @@ A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é 
 
 ## Integrantes
 
-Kaian Gustavo de Oliveira Nascimento Rm 558986*\
+Kaian Gustavo de Oliveira Nascimento Rm 558986
 Giovanna Revito Roz Rm 558981*\
 Lucas Kenji Kikuchi - RM554424*
