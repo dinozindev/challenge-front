@@ -40,8 +40,7 @@ A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é 
    ```bash
    python api.py
   O prompt retornado deve ser semelhante a:
-    ```bash
-    
+  
       Transformation Pipeline and Model Successfully Loaded
       Serving Flask app 'api'
       Debug mode: on
