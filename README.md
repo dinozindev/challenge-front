@@ -11,7 +11,7 @@ A **PortoAutoTech** tem como objetivo simplificar e automatizar o processo de ma
 - **Automação Completa**: A plataforma oferece automação em todo o processo, com barras de progresso e outras funcionalidades que garantem uma experiência tranquila para o usuário.
 
 ## Videos do Projeto
-https://www.youtube.com/watch?v=Xk_73wwOvGo&ab_channel=FIAPKAIAN
+https://www.youtube.com/watch?v=Xk_73wwOvGo&ab_channel=FIAPKAIAN  *\
 https://www.youtube.com/watch?v=iUpLNIqccpc
 
 ## Instruções para Manipulação do Sistema
