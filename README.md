@@ -57,8 +57,9 @@ A plataforma **PortoAutoTech** ainda não está disponível online. O acesso é 
    4. JDBC Driver: Verifique se o ojdbc11 está no arquivo pom.xml para conexão com o Oracle Database.
    
    ###Configuração do Projeto Maven *\
-      1. No arquivo pom.xml, você já incluiu as dependências essenciais, como ojdbc11 para o banco de dados Oracle, Jersey para o servidor REST, e Gson para manipulação de JSON.*\
-      2. Certifique-se de que o maven-compiler-plugin está configurado para Java 17 (ou a versão que você está usando), e o maven-war-plugin para empacotar a aplicação como um arquivo WAR.*\
+   1. No arquivo pom.xml, você já incluiu as dependências essenciais, como ojdbc11 para o banco de dados Oracle, Jersey para o servidor REST, e Gson para manipulação de JSON.
+   2. Certifique-se de que o maven-compiler-plugin está configurado para Java 17 (ou a versão que você está usando), e o maven-war-plugin para empacotar a aplicação como um arquivo WAR.
+
    
    ###Configuração do banco de dados Oracle*\
       1. Execute os comandos SQL para criar as tabelas necessárias no Oracle Database.*\
